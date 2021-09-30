@@ -1,0 +1,37 @@
+
+1. AdminController
+
+	API to add rooms  : http://localhost:8080/admin/createRoom
+	RequestMethod = POST
+	
+	API to update room  : http://localhost:8080/admin/updateRoom/2
+	RequestMethod = UPDATE
+	
+	API to delete room  : http://localhost:8080/admin/deleteRoom/2	
+	RequestMethod = DELETE
+	
+	API to get single room  : http://localhost:8080/admin/getRoom/2	
+	RequestMethod = GET
+	
+	API to get all rooms :  http://localhost:8080/admin/all
+	RequestMethod = GET
+	
+	
+2. UserController
+
+
+	API to get all rooms in the hotel :  http://localhost:8080/users/allRoom	
+	RequestMethod = GET
+	
+	
+3. BookingController
+
+   API to book rooms  : http://localhost:8080/booking/createRoomBooking
+   RequestMethod = POST
+	
+   API to book random rooms on random dates : http://localhost:8080/booking/createRandomBooking
+   RequestMethod = POST
+	
+   An API to fetch all booked room : http://localhost:8080/booking/rooms/
+	
+   RequestMethod = GET
